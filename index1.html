@@ -7,23 +7,54 @@
     <link rel="stylesheet" href="/style/style.css" />
   </head>
   <body>
-    <section id="main">
+    <section class="main">
       <div id="container" class="container">
         <div class="header-counter">
           <h1 class="esas-basliq">Quiz app</h1>
-          <h1 id="counter" value="0"></h1>
+          <div id="timer">00:00</div>
+          <button onclick="pause()" class="button">start-stop</button>
+          <ul id="ul"></ul>
         </div>
 
         <hr />
-        <h1 class="birinci-sual">1.Which is largest animal in the world?</h1>
+        <h1 id="birincisual" class="birinci-sual"></h1>
         <div class="question-container">
-          <button class="button" id="firstquestion">Shark</button>
-          <button class="button" id="truequestion">Blue whale</button>
-          <button class="button" id="thirdquestion">Elephant</button>
-          <button class="button" id="fourthquestion">Giraffe</button>
+          <button class="button" id="firstquestion"></button>
+          <button class="button" id="truequestion"></button>
+          <button class="button" id="thirdquestion"></button>
+          <button class="button" id="fourthquestion"></button>
         </div>
-        <div class="change">
-          <a class="link" href="/index2.html">Next</a>
+      </div>
+    </section>
+
+    <section class="main">
+      <div id="container" class="container">
+        <div class="header-counter">
+          <h1 class="esas-basliq">Quiz app</h1>
+        </div>
+
+        <hr />
+        <h1 class="birinci-sual" id="ikincisual"></h1>
+        <div class="question-container">
+          <button class="button" id="firstquestion2"></button>
+          <button class="button" id="secondquestion2"></button>
+          <button class="button" id="thirdquestion2"></button>
+          <button class="button" id="fourthquestion2"></button>
+        </div>
+      </div>
+    </section>
+    <section class="main">
+      <div id="container" class="container">
+        <div class="header-counter">
+          <h1 class="esas-basliq">Quiz app</h1>
+        </div>
+        <hr />
+        <h1 class="birinci-sual" id="birinci-sual3">sss</h1>
+        <div class="question-container">
+          <button class="button" id="firstquestion3"></button>
+          <button class="button" id="secondquestion3"></button>
+          <button class="button" id="thirdquestion3"></button>
+          <button class="button" id="fourthquestion3"></button>
         </div>
       </div>
     </section>

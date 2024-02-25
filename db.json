@@ -1,0 +1,49 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "questionText": "What is the capital of France?",
+      "options": ["New York", "London", "Paris", "Tokyo"],
+      "correctAnswer": "Paris",
+      "difficulty": "easy",
+      "timeLimit": 30
+    },
+    {
+      "id": 2,
+      "questionText": "Which element has the chemical symbol 'O'?",
+      "options": ["Gold", "Oxygen", "Hydrogen", "Iron"],
+      "correctAnswer": "Oxygen",
+      "difficulty": "easy",
+      "timeLimit": 30
+    },
+    {
+      "id": 3,
+      "questionText": "What is the largest planet in our solar system?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "correctAnswer": "Jupiter",
+      "difficulty": "medium",
+      "timeLimit": 30
+    },
+    {
+      "id": 4,
+      "questionText": "In what year did the Titanic sink?",
+      "options": ["1912", "1905", "1898", "1923"],
+      "correctAnswer": "1912",
+      "difficulty": "medium",
+      "timeLimit": 30
+    },
+    {
+      "id": 5,
+      "questionText": "Who wrote 'To be, or not to be, that is the question'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Leo Tolstoy",
+        "Mark Twain"
+      ],
+      "correctAnswer": "William Shakespeare",
+      "difficulty": "hard",
+      "timeLimit": 30
+    }
+  ]
+}
